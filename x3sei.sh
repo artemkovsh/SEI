@@ -14,7 +14,7 @@ sleep 2
 
 # Menu
 
-PS3='Select an action: '
+PS3='Выберите действие: '
 options=(
 "Установка ноды"
 "Exit")
