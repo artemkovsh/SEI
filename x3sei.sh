@@ -16,10 +16,7 @@ sleep 2
 
 PS3='Select an action: '
 options=(
-"Install"
-"Create Wallet"
-"Faucet"
-"Create Validator"
+"Установка ноды"
 "Exit")
 select opt in "${options[@]}"
 do
@@ -27,13 +24,13 @@ case $opt in
 
 "Install")
 echo "============================================================"
-echo "Install start"
+echo "Установка началась"
 echo "============================================================"
 
 
 # set vars
 if [ ! $NODENAME ]; then
-	read -p "Enter node name: " NODENAME
+	read -p "Имя ноды: " NODENAME
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
 echo "export WALLET=wallet" >> $HOME/.bash_profile
