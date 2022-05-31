@@ -116,5 +116,4 @@ echo 'alias sei_wallet_balance="seid query bank balances $WALLET_ADDRESS"' >> $H
 echo 'alias sei_faucet="curl -X POST -d '{"'"address"'": '"'"'"'"''$WALLET_ADDRESS''"'"'"'"', "'"coins"'": ["'"1000000usei"'"]}' http://3.22.112.181:8000"' >> $HOME/.bash_profile
 
 echo '=============== УСТАНОВКА ЗАВЕРШЕНА ==================='
-echo -e 'Проверка логов: \e[1m\e[32msei_logs \e[0m'
-echo -e 'Проверить статус синхронизации: \e[1m\e[32msei_stats_sync \e[0m'
+echo '=============== Устанавливаем кошелёк в ручную по гайду... ==================='
