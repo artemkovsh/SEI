@@ -13,12 +13,12 @@ sleep 2
 
 # Menu
 
-PS3='Выберите действие: '
+PS3='Select an action: '
 options=(
-"Установка ноды"
-"Создаем кошелёк"
-"кран"
-"Создать валидатора"
+"Install"
+"Create Wallet"
+"Faucet"
+"Create Validator"
 "Exit")
 select opt in "${options[@]}"
 do
